@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+</head>
+<body>
+
+
+    <div class="banner">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <h2>Ecole Nationale des Sciences de l'Informatique</h2>
+                    <p>Depuis sa création en 1984, comme première école d’ingénieur dédiée aux sciences de l’informatique, l’ENSI fut et reste un challenge international en quête de l’Excellence dans l’apprentissage ainsi que dans le développement continuel de ses apprenants.  En effet, l’ENSI se base sur l’apprentissage d’un éternel auto-apprentissage, compétences clés à l’excellence sans limites dans les savoir & savoir-faire d’une part ainsi que les savoir être & savoir devenir d’autre part, faisant de l’ENSIen.ne non seulement un.e informaticien.ne mais surtout un.e citoyen.ne du monde avec une pensée critique et un leader dans une innovation numérique responsable et durable...</p>
+                    
+                     <a href="https://ensi.rnu.tn/fra/pages/260/D%C3%A9couvrir-l%E2%80%99ENSI" target="_blank" class="btn" >See More</a>  
+                   
+                </div>
+                <div class="image"><img src="logoEnsi.png" height="250px" id="ensi"  ></div>
+    
+            </div>
+        </div>
+        <div class="slide-container " >
+            <div class="slide">
+
+                <div class="content">
+                    <h2>IEEE ENSI Student Branch</h2>
+                    <p>IEEE ENSI SB was created in October 2011 by engineering students from the national school of computer science, given the internationalization of this institute and the necessity that we have touched to integrate our school in such a movement that takes care of the improvement of the Engineering, computer science and information technology around the world. Our SB always tries to address the most relevant technical themes of today at local and global level through lectures and regular articles. Programs are often organized to ensure the growth of skills and knowledge among students and to encourage individual commitment to continuing education among IEEE volunteers...
+                    </p>
+                   
+                    <a href="https://ensi.ieee.tn/#/sb" target="_blank" class="btn" >See More</a> 
+                   
+                
+                </div>
+                <div class="image"><img src="Logo ieee bleu.png" height="250px"  ></div>
+                
+                
+                
+                
+    
+            </div>
+        </div>
+        <div class="slide-container ">
+            <div class="slide">
+                <div class="content">
+                    <h2>Computational Intelligence Society</h2>
+                    <p>The IEEE Computational Intelligence Society is a professional association of the Institute of Electrical and Electronics Engineers (IEEE) that focuses on "the theory, design, application, and development of biologically and linguistically motivated computational paradigms emphasizing neural networks, connectionist systems, genetic algorithms, evolutionary algorithms, fuzzy intelligent systems, and hybrid intelligent systems in which these paradigms are contained...</p>
+                    <a href="https://ensi.ieee.tn/#/cis" target="_blank" class="btn" >See More </a>
+                
+                </div>
+                <div class="image"><img src="cis.jpg" height="250px"   id="cis" ></div>
+                
+            </div>
+        </div>
+        
+        <div id="prev" onclick="prev()" > < </div>
+        <div id="next" onclick="next()"> > </div>
+        
+        
+    </div>
+
+    
+
+
+
+    <footer class="foot">
+        <div class="container">
+            <div class="f-col">
+                <h3>GODS 2.0</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Register</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+    
+                </ul>
+                
+    
+            </div>
+            <div class="f-col">
+                <h3>Contact</h3>
+                <ul>
+                    
+                    <li class="icon-center">
+                        <div>
+                            <i class="fab fa-map-marker" ></i>
+                        </div>
+                        <div>
+                            <p><span>Ecole Nationale Des Sciences de l'Informatique</span> Manouba</p>
+                    
+                        </div>
+                        
+                        
+                    </li>
+                    <li class="icon-center">
+                        <div>
+                            <i class="fab fa-phone"></i>
+                        </div>
+                        <div>
+                            <p>+216 92 630 257</p>
+                        </div>
+                        
+                        
+                    </li>
+                    <li class="icon-center">
+                        <div>
+                            <i class="fab fa-envelope"></i>
+                        </div>
+                        <div>
+                            <a href="mailto:ieee.sb@ensi-uma.tn" target="_blank">ieee.sb@ensi-uma.tn</a>
+                        </div>
+                        
+                        
+                    </li>
+                    <li class="icon-center">
+                        <div>
+                            <i class="fab fa-globe"  ></i>
+                        </div>
+                        <div>
+                            <a href="ensi.ieee.tn" target="_blank">ensi.ieee.tn</a>
+                        </div>
+                        
+                        
+                    </li>
+        
+                </ul>
+                
+    
+            </div>
+    
+            <div class="f-col">
+                <h3>Follow Us</h3>
+                
+                <div class="icon-right">
+                    <a href="https://www.facebook.com/IEEE.ENSI.SB/" target="_blank"><i class="fab-fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ieee_ensi_sb/?hl=en" target="_blank"><i class="fab-fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/ieee-ensi-student-branch" target="_blank"><i class="fab-fa-linkedin-in"></i></a>
+                    
+                </div>
+    
+            </div>
+        </div>
+
+        <script>
+        let slides=document.querySelectorAll('.slide-container');
+        let index=0;
+
+        function next(){
+            slides[index].classList.remove('active');
+            index = (index + 1 )% slides.length;
+            slides[index].classList.add('active');
+        }
+
+        function prev(){
+            slides[index].classList.remove('active');
+            index = (index - 1 + slides.length)% slides.length;
+            slides[index].classList.add('active');
+        }
+
+        setInterval(next,7000);
+
+    </script>
+        
+    </footer>
+    
+</body>
+</html>
