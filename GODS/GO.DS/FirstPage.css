@@ -1,0 +1,20 @@
+#title {
+    color: blue;
+}
+
+#navbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#navbar .nav-item :hover {
+    color: #5BC0F8;
+}
+
+
+
+#h1 {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 100px;
+}

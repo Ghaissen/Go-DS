@@ -1,0 +1,144 @@
+body {
+    background-image: url("5134336.jpg");
+    font-family: futura bold;
+    background-color: #b0bdc1;
+}
+
+#title {
+    color: #0061a8;
+    font-size: 1.5rem;
+}
+
+
+
+#navbar {
+    background: linear-gradient(to bottom, #b0bdc1, #b0bdc1);
+    font-size: 1.5rem;
+    font-weight: 100;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    position: relative;
+}
+
+#home {
+    position: absolute;
+    right: 550px;
+    margin-right: 550px;
+    top: 0px;
+    margin-top: 0px;
+}
+
+#history {
+    position: absolute;
+    right: 470px;
+    margin-right: 470px;
+    top: 0px;
+    margin-top: 0px;
+}
+
+#club {
+    position: absolute;
+    right: 390px;
+    margin-right: 390px;
+    top: 0px;
+    margin-top: 0px;
+}
+
+#register {
+    position: absolute;
+    right: 0px;
+    margin-right: 0px;
+    top: 0px;
+    margin-top: 0px;
+}
+
+#navbar .nav-item :hover {
+    color: #07aff0;
+}
+
+.firstBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-end;
+    left: 573px;
+    margin-left: 573px;
+    top: 0px;
+    margin-top: 0px;
+}
+
+#event {
+    position: absolute;
+    top: 0px;
+    margin-top: 0px;
+    left: 115px;
+    margin-left: 115px;
+    bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.logoclub {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1px;
+}
+
+.logochapter {
+    position: absolute;
+    z-index: 1;
+    top: 10;
+    right: 0;
+    margin-top: 80px;
+
+}
+
+#partners {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    position: absolute;
+    top: 100px;
+    margin-top: 350px;
+    left: 300px;
+
+}
+
+#minotore {
+    display: flex;
+    position: absolute;
+    left: 175px;
+    margin-left: 175px;
+    bottom: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+#io {
+    display: flex;
+    position: relative;
+    bottom: 8px;
+    margin-bottom: 8px;
+}
+
+#venari {
+    display: flex;
+    position: relative;
+    top: 3px;
+    margin-top: 3px;
+    left: 7px;
+    margin-left: 7px;
+}
