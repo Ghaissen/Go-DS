@@ -1,0 +1,33 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+ }
+ #video{
+    height: 620px;
+    width: 340px;
+    padding-left: 15px;
+    padding-top: 15px;
+    position: absolute; 
+
+    
+ }
+#imgvd {
+    height: 650px;
+    width: 370px;
+    position: absolute;
+    
+    
+}
+#parentvd{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    
+    
+}
