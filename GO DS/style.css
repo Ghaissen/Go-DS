@@ -20,6 +20,59 @@ body{
 
 }
 
+
+@-webkit-keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform:translateX(calc(-250px*3));
+    }
+   
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform:translateX(calc(-250px*3));
+    }
+   
+}
+
+
+.carousel{
+
+    height: 100px;
+    margin:  auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+}
+
+.carousel .wrapper{
+   animation: scroll 40s linear infinite;
+   display: flex;
+   width: calc(250px*8);
+}
+
+.carousel .item{
+    height: 100px;
+    width: 250px;
+}
+
+#ven{
+   padding-right: 200px;
+   margin-right: 200px;
+}
+
+
+
+
+
+
 #cis{
     border-radius: 50%;
     margin-left: 200px;
