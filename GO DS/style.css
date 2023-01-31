@@ -44,7 +44,7 @@ body{
 
 .carousel{
 
-    height: 100px;
+    height: 200px;
     margin:  auto;
     margin-top: 100px;
     position: relative;
@@ -55,7 +55,8 @@ body{
 .carousel .wrapper{
    animation: scroll 40s linear infinite;
    display: flex;
-   width: calc(250px*8);
+   align-content: stretch;
+   width: calc(750px*6);
 }
 
 .carousel .item{
@@ -63,10 +64,8 @@ body{
     width: 250px;
 }
 
-#ven{
-   padding-right: 200px;
-   margin-right: 200px;
-}
+
+    
 
 
 
